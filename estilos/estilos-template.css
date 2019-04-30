@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: #E9ED58;
+}
+header{
+	width: 100%; 
+	height: 650px;
+	background-image: url("../img/header.jpg"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;/*center/la centra... bottom/la acomoda de abajo para arriba*/
+}
+section#promo{
+	width: 100%;
+	height: 400px;
+	background-image: url("../img/bg_bienvenida.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section#contenidos{
+	width: 100%;
+	height: 600px;
+	background-image: url("../img/fondoEspecialidades.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section#ubicacion{
+	width: 100%;
+	height: 422px;
+	background-color: #FFB2B3;
+}
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: #A1C133;
+}
+div#centrarnav, div#centrarheader, div#centrarpromo, div#centrarcontenidos, div#centrarubicacion, div#centrarfooter{ /*clase compuesta*/
+	position: relative;
+	width: 1200px;
+	height: 100%; /*100% de la altura del contendedor padre*/
+	background-color: rgba(217,131,255,0.55);
+	margin: 0 auto;
+}
+div#centrarheader{
+	width: 1200px;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div#centrarnav img{
+	position: absolute;
+	top: 19px;
+	left: 9px;
+}
+ul#menuprincipal {
+	position: absolute;
+	float: left;
+	list-style: none;
+	top: 28px;
+	left: 126px;
+}
+ul#menuprincipal li {
+	float: left;
+	margin-right: 47px;
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+ul#menuprincipal li a {
+	color: black;
+	font-weight: 100;
+	text-decoration: none;	
+}
+ul#redessociales {
+	float: right;
+	list-style: none;
+	
+}
+ul#redessociales li {
+	float: left;
+	padding-top: 25px;
+	margin-left: 19px;
+}
+div#face {
+	width: 12px;
+	height: 21px;
+	background-image: url("../img/redes/faceWhite.svg");
+}
+div#face:hover{
+	background-image: url("../img/redes/faceHover.svg");
+}
+div#tw {
+	width: 23px;
+	height: 18px;
+	background-image: url("../img/redes/twitterWhite.svg");
+}
+div#tw:hover{
+	background-image:url("../img/redes/twitterHover.svg");
+}
+div#insta {
+	width: 21px;
+	height: 21px;
+	background-image: url("../img/redes/inwhite.svg");
+}
+div#insta:hover{
+	background-image: url("../img/redes/inHover.svg");
+}
+div#centrarpromo h2 {
+	position: absolute;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	color: #A1C133;
+	font-weight: 300;
+	top: 123px;
+	left: 664px;
+	text-align: right;
+}
+div#centrarpromo p {
+	position: absolute;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	color: black;
+	font-weight: 100;
+	top: 252px;
+	left: 746px;
+}
+/*falta seccion de contenidos*/
+/*falta seccion de ubicacion*/
+
+div#centrarfooter img {
+	position: absolute;
+	top: 64px;
+	left: 9px;	
+}
+ul#menufooter {
+	position: absolute;
+	top: 64px;
+	left: 204px;
+}
+ul#menufooter li {
+	list-style: none;
+	margin-bottom: 12px;
+	font-size: 14px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+ul#menufooter li a {
+	color: white;
+	text-decoration: none;
+}
+ul#logosocialesfooter {
+	position: absolute;
+	list-style: none;
+	top: 64px;
+	left: 344px;
+}
+ul#logosocialesfooter li{
+	margin-bottom: 11px;
+}
+
+div#facefooter {
+	background-image: url("../img/redes/faceWhite.svg");
+	width: 11px;
+	height: 21px;
+}
+div#facefooter:hover{
+	background-image: url("../img/redes/faceHover.svg");
+}
+div#twfooter {
+	width: 23px;
+	height: 18px;
+	background-image: url("../img/redes/twitterWhite.svg");
+}
+div#twfooter:hover{
+	background-image:url("../img/redes/twitterHover.svg");
+}
+div#instafooter {
+	width: 21px;
+	height: 21px;
+	background-image: url("../img/redes/inwhite.svg");
+}
+div#instafooter:hover{
+	background-image: url("../img/redes/inHover.svg");
+}
+div#centrarfooter p {
+	position: absolute;
+	top: 62px;
+	left: 930px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	color: white;
+	line-height: 23px;
+}
