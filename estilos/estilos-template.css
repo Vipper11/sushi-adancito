@@ -5,6 +5,12 @@
 	padding: 0;
 	border: 0;
 }
+body{
+	font-family: 'josefin_light';
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'josefin_semibold';
+}
 nav{
 	width: 100%;
 	height: 70px;
@@ -46,7 +52,6 @@ div#centrarnav, div#centrarheader, div#centrarpromo, div#centrarcontenidos, div#
 	position: relative;
 	width: 1200px;
 	height: 100%; /*100% de la altura del contendedor padre*/
-	background-color: rgba(217,131,255,0.55);
 	margin: 0 auto;
 }
 div#centrarheader{
@@ -71,7 +76,7 @@ ul#menuprincipal li {
 	float: left;
 	margin-right: 47px;
 	font-size: 20px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
 }
 ul#menuprincipal li a {
 	color: black;
@@ -114,17 +119,15 @@ div#insta:hover{
 }
 div#centrarpromo h2 {
 	position: absolute;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 40px;
 	color: #A1C133;
 	font-weight: 300;
 	top: 123px;
-	left: 664px;
+	left: 625px;
 	text-align: right;
 }
 div#centrarpromo p {
 	position: absolute;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 25px;
 	color: black;
 	font-weight: 100;
@@ -136,20 +139,19 @@ div#centrarpromo p {
 
 div#centrarfooter img {
 	position: absolute;
-	top: 64px;
+	top: 62px;
 	left: 9px;	
 }
 ul#menufooter {
 	position: absolute;
-	top: 64px;
+	top: 62px;
 	left: 204px;
 }
 ul#menufooter li {
 	list-style: none;
 	margin-bottom: 12px;
 	font-size: 14px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-}
+}	
 ul#menufooter li a {
 	color: white;
 	text-decoration: none;
@@ -157,8 +159,8 @@ ul#menufooter li a {
 ul#logosocialesfooter {
 	position: absolute;
 	list-style: none;
-	top: 64px;
-	left: 344px;
+	top: 62px;
+	left: 408px;
 }
 ul#logosocialesfooter li{
 	margin-bottom: 11px;
@@ -192,8 +194,67 @@ div#centrarfooter p {
 	position: absolute;
 	top: 62px;
 	left: 930px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 14px;
 	color: white;
 	line-height: 23px;
+}
+ul#redesfooter {
+	position: absolute;
+	list-style: none;
+	top: 62px;
+	left: 453px;
+}
+ul#redesfooter li{
+	margin-bottom: 14px;
+}
+ul#redesfooter li a{
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+div#centrarfooter p#formulario {
+	position: absolute;
+	top: 62px;
+	left: 620px;
+	font-size: 14px;
+	color: white;
+	line-height: 23px;
+}
+div#boxmaps{
+	width: 720px;
+	height: 285px;
+	background-color: #A1C133;
+	position: absolute;
+	top: 112px;
+	left: 236px;
+}
+iframe#mapa{
+	margin-left: 22px;
+	margin-top: -60px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,.5) /*box-shadow: despX despY bluer rgba(0,0,0,.5)*/
+}
+input#email{
+	position: absolute;
+	top: 86px;
+	left: 620px;
+	width: 193px ;
+	height: 40px;
+	background-color: #A1C133;
+	border: solid 1px white;
+	font-size: 15px;
+	padding-left: 15px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+input#enviar{
+	position: absolute;
+	top: 86px;
+	left: 830px;
+	width: 60px ;
+	height: 42px;
+	background-color: white;
+	border: solid 1px white;
+	font-size: 11px;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
 }
