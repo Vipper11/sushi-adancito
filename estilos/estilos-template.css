@@ -41,7 +41,6 @@ section#contenidos{
 section#ubicacion{
 	width: 100%;
 	height: 422px;
-	background-color: #FFB2B3;
 }
 footer{
 	width: 100%;
@@ -201,11 +200,11 @@ div#centrarfooter p {
 ul#redesfooter {
 	position: absolute;
 	list-style: none;
-	top: 62px;
+	top: 60px;
 	left: 453px;
 }
 ul#redesfooter li{
-	margin-bottom: 14px;
+	margin-bottom: 9px;
 }
 ul#redesfooter li a{
 	font-size: 16px;
@@ -257,4 +256,7 @@ input#enviar{
 	font-size: 11px;
 	border-bottom-right-radius: 4px;
 	border-top-right-radius: 4px;
+	cursor: pointer;
 }
+
+/* falta cambiar colo de texto del boton*/

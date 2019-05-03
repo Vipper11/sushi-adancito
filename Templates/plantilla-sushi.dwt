@@ -2,27 +2,31 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>Template Sushi</title>
-<link rel="stylesheet" href="estilos/estilos-template.css">
-<link rel="stylesheet" href="webfontkit/josefin-font.css">
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../estilos/estilos-template.css">
+<link rel="stylesheet" href="../webfontkit/josefin-font.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body>
 	<nav>
 		<div id="centrarnav">
-			<img src="img/sushi_logo.png">
+			<img src="../img/sushi_logo.png">
 			<ul id="menuprincipal">
 				<li>
-					<a href="index.html">Inicio</a>
+					<a href="../index.html">Inicio</a>
 				</li>
 				<li>
-					<a href="galeria.html">Galerìa</a>
+					<a href="../galeria.html">Galerìa</a>
 				</li>
 				<li>
-					<a href="servicios.html">Servicios</a>
+					<a href="../servicios.html">Servicios</a>
 				</li>
 				<li>
-					<a href="contacto.html">Contacto</a>
+					<a href="../contacto.html">Contacto</a>
 				</li>
 			</ul>
 			<ul id="redessociales">
@@ -49,12 +53,20 @@
 	</header>
 	<section id="promo">
 		<div id="centrarpromo">
+			<!-- TemplateBeginEditable name="promociones" -->
 			<h2>SIEMPRE UNA SORPRESA<br>PENSADA PARA TI</h2>
 			<p>Descubre lo que tenemos preparado</p>
+			<!-- TemplateEndEditable -->
 		</div>
 	</section>
 	<section id="contenidos">
-		<div id="centrarcontenidos"></div>
+		<div id="centrarcontenidos">
+			<!-- TemplateBeginEditable name="area de contenidos" -->
+			area de contenidos
+			
+			
+			<!-- TemplateEndEditable -->
+		</div>
 	</section>
 	<section id="ubicacion">
 		<div id="centrarubicacion">
@@ -63,19 +75,19 @@
 	</section>
 	<footer>
 		<div id="centrarfooter">
-			<img src="img/sushi_logo.png">
+			<img src="../img/sushi_logo.png">
 			<ul id="menufooter">
 				<li>
-					<a href="index.html">Inicio</a>
+					<a href="../index.html">Inicio</a>
 				</li>
 				<li>
-					<a href="galeria.html">Galerìa</a>
+					<a href="../galeria.html">Galerìa</a>
 				</li>
 				<li>
-					<a href="servicios.html">Servicios</a>
+					<a href="../servicios.html">Servicios</a>
 				</li>
 				<li>
-					<a href="contacto.html">Contacto</a>
+					<a href="../contacto.html">Contacto</a>
 				</li>
 			</ul>
 			<ul id="logosocialesfooter">
