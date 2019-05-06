@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+section#contenidos{
+	height: 930px;
+}
+
+div#foto{
+	position: absolute;
+	top:160px ;
+	left: 612px;
+	width: 582px;
+	height: 700px;
+	background-color: rgba(183,77,79,1.00);
+}
+
+div#descripcion{
+	position: absolute;
+	top: 245px;
+	left: 102px;
+	width:306px ;
+	height:138px ;
+}
+
+div#miniatura{
+	position: absolute;
+	top: 587px;
+	left: 0px;
+	width:582px ;
+	height:281px ;
+	padding-left: 30px;
+	padding-top: 12px;
+}
+
+div#descripcion h3{
+	color: #D0E542;
+	font-size: 40px;
+}
+div#descripcion p{
+	color: white;
+	font-size: 16px;
+}

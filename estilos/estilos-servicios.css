@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section#contenidos{
+	height: 832px;
+}
+
+div#boxacordeon{
+	width:582px ;
+	height:558px ;
+	position: absolute;
+	top: 175px;
+	left: 0px;
+	background-color: yellowgreen;
+}
+div#boxtabs{
+	width:582px ;
+	height:558px ;
+	position: absolute;
+	top: 175px;
+	left: 612px;
+	background-color: yellowgreen;
+}

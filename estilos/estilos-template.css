@@ -259,4 +259,11 @@ input#enviar{
 	cursor: pointer;
 }
 
+h2.titulo{
+	font-size: 40px;
+	color: #D0E542;
+	text-align: center;
+	padding-top: 48px;
+	padding-bottom: 30px;
+
 /* falta cambiar colo de texto del boton*/
