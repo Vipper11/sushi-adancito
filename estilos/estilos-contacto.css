@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section#contenidos{
+	height: 603px;
+}
+div#boxformulario{
+	width:408px ;
+	height: 309px;
+	margin-top: 50px;
+	margin-left: 90px;
+}
+div#boxcontacto{
+	width:408px ;
+	height: 309px;
+	margin-top: -308px;
+	float: right;
+	margin-right:122px;
+}
+td {
+	font-size: 20px;
+	color: white;
+	padding-bottom: 23px;
+}
+input, textarea{
+	width: 206px;
+	height: 40px;
+	margin-left: 85px;
+	background-color: transparent;
+	border: solid 1px #D0E542;
+	border-radius: 6px;
+	resize: none;
+	color: white;
+	font-size: 18px;
+	padding-left: 10px;
+}
+input#Enviar{
+	width: 94px;
+	height: 33px;
+	float: right;
+	color: white;
+	background-color: #D0E542;
+	font-size: 20px;
+	cursor: pointer;
+	padding-right: 10px;
+}
+textarea {
+	padding-top: 12px;
+}
+div p{
+	font-size:28px;
+	color: white;
+	text-align: center;
+	padding-top: 185px;
+}
+div img{
+	position: absolute;
+	left: 805px;
+	top: 205px;
+}
+
+
+::-webkit-input-placeholder{color:rgba(145,145,145,0.87);}
+::-moz-input-placeholder{color:rgba(145,145,145,0.87);}
+::-ms-input-placeholder{color:rgba(145,145,145,0.87);}
+::-o-input-placeholder{color:rgba(145,145,145,0.87);}
